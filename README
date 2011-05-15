@@ -1,0 +1,12 @@
+Wireless Antennas QGIS plugin
+=============================
+This is an attempt to make a simple QGIS plugin allowing to get an idea of the
+network coverage of a set of wireless antennas.
+
+Well, it's very basic at the moment, but...
+It (should) work as follows :
+ - make a points layer describing your antenas network, with their
+ characteristics (type, gain).
+ - Select your layer in the layers pane
+ - Run the plugin (press F6)
+ - It draws a raster layer of wireless coverage.
